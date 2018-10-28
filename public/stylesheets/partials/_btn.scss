@@ -1,0 +1,25 @@
+.next {
+    margin: 0;
+    &::after {
+        margin: 0;
+    }
+}
+
+.next,
+a.btn {
+    float: right;
+}
+
+a.btn {
+    cursor: pointer;
+}
+
+.btn {
+    border: 0;
+}
+
+.fas.fa-hand-point-right {
+    color: $CadetBlue4;
+    font-size: 2.5rem;
+    margin-top: 2px;
+}

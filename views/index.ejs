@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body class="Site">
+    <div class="Site-content">
+        <div class="container">
+            <h1 class="text-left"> Trump Talks</h1>
+            <div class="quote-cloud">
+                <div id="quote"></div>
+            </div>
+            <a class="next btn">
+                <i class="fas fa-hand-point-right"></i>
+            </a>
+            
+            <!-- Place this tag where you want the share button to render. -->
+            <div class="social-share">
+                <a class="google-plus" href="https://plus.google.com/share?url={http://interglobalmedia.github.io/random-quote-machine/}"
+                    onclick="javascript:window.open(this.href,
+            '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+                <a class="tumblr" data-color="blue" data-notes="right" href="http://tumblr.com/widgets/share/tool?canonicalUrl=http://interglobalmedia.github.io/random-quote-machine/"></a>
+                <script>
+                    ! function (d, s, id) {
+                        var js, ajs = d.getElementsByTagName(s)[0];
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "https://secure.assets.tumblr.com/share-button.js";
+                            ajs.parentNode.insertBefore(js, ajs);
+                        }
+                    }(document, "script", "tumblr-js");
+                </script>
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=Check%20Out%20This%20Awesome%20Random%20Quote%20Machine!%20http://interglobalmedia.github.io/random-quote-machine/"></a>
+            </div>
+        </div>
+    </div>
+    <% include ./partials/footer %>
+</body>
+
+</html>

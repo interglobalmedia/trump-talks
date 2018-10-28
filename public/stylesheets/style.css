@@ -1,0 +1,122 @@
+body {
+  font-family: 'Muli', sans-serif;
+  background: url("/images/trump.jpg") center center no-repeat;
+  background-size: cover; }
+
+/* footer basic styling */
+footer {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0; }
+
+footer p {
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  color: #212529; }
+
+.identity {
+  color: #53868b; }
+
+/* Sticky Footer styling */
+:root {
+  --space: 1.5em 0;
+  --space: 2em 0; }
+
+.Site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.Site-content {
+  flex: 1 0 auto;
+  padding: var(--space) var(--space) 0;
+  width: 100%; }
+
+.Site-content:after {
+  content: '\00a0';
+  display: block;
+  margin-top: var(--space);
+  height: 0;
+  visibility: hidden; }
+
+.container {
+  position: absolute;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .container h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 2.5rem;
+    color: #53868b;
+    margin-left: 16px;
+    text-align: center; }
+
+.quote-cloud {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  z-index: 1;
+  background: rgba(248, 248, 255, 0.5);
+  padding: 20px 40px;
+  /* give the corners a large curve */
+  border-radius: 54px;
+  /* style the text */
+  letter-spacing: 0.07em;
+  display: flex;
+  justify-content: center; }
+  .quote-cloud #quote {
+    min-height: 40px;
+    height: 100%; }
+
+.social-share {
+  text-align: left;
+  margin-left: 16px; }
+
+.google-plus::before,
+.tumblr::before,
+.twitter::before,
+.next::after {
+  font-family: 'Font Awesome 5 Brands';
+  font-size: 2.5rem;
+  color: #53868b; }
+
+.google-plus::before,
+.tumblr::before,
+.twitter::before {
+  margin: 2px 8px; }
+
+.google-plus::before {
+  content: '\f0d5'; }
+
+.tumblr::before {
+  content: '\f173'; }
+
+.twitter::before {
+  content: '\f099'; }
+
+.next {
+  margin: 0; }
+  .next::after {
+    margin: 0; }
+
+.next,
+a.btn {
+  float: right; }
+
+a.btn {
+  cursor: pointer; }
+
+.btn {
+  border: 0; }
+
+.fas.fa-hand-point-right {
+  color: #53868b;
+  font-size: 2.5rem;
+  margin-top: 2px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+.social-share {
+    text-align: left;
+    margin-left: 16px;
+}
+
+.google-plus::before,
+.tumblr::before,
+.twitter::before,
+.next::after {
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 2.5rem;
+    color: $CadetBlue4;
+}
+
+.google-plus::before,
+.tumblr::before,
+.twitter::before {
+    margin: 2px 8px;
+}
+
+.google-plus::before {
+    content: '\f0d5';
+}
+
+.tumblr::before {
+    content: '\f173';
+}
+
+.twitter::before {
+    content: '\f099';
+}
